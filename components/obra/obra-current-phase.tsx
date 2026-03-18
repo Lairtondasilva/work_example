@@ -120,13 +120,7 @@ export function ObraCurrentPhase({ phase, category, onEdit, isAdmin = false, emb
           </div>
         </div> */}
 
-        {/* Valor pago nesta fase */}
-        <div className="mt-4 flex items-center justify-between text-sm">
-          <span className="text-muted-foreground">Valor Pago nesta Fase</span>
-          <span className="font-semibold text-emerald-600">
-            {new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" }).format(phase.paidValue)}
-          </span>
-        </div>
+    
       </Container>
 
       <PhaseModal

@@ -24,7 +24,7 @@ export function ObraHeader({ title, subtitle, status, category }: ObraHeaderProp
   const statusInfo = statusConfig[status]
 
   return (
-    <header className="sticky top-0 z-50 bg-primary text-primary-foreground">
+    <header className=" top-0 z-50 bg-primary text-primary-foreground">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-14">
           <div className="flex items-center gap-4">
